@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ZendSkeletonApplication
 
 > ## Repository abandoned 2019-12-31
@@ -226,7 +225,3 @@ $ composer cs-fix
 # Run PHPUnit tests:
 $ composer test
 ```
-=======
-# zend-framework
-zend, php, mvc
->>>>>>> a645381730441e67bc00e9c5a06322d175083cac
