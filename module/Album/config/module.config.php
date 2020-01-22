@@ -2,15 +2,10 @@
 
 namespace Album;
 
-use Zend\ServiceManager\Factory\InvokableFactory;
+use Zend\Router\Http\Segment;
 
 return [
-    'controllers' => [
-        'factories' => [
-            Controller\AlbumController::class => InvokableFactory::class,
-        ],
-    ],
-
+    
     // routes
     'router' => [
         'routes' => [

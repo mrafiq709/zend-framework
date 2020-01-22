@@ -12,5 +12,16 @@
  */
 
 return [
-    // ...
+    // 'db' => [
+    //     'driver' => 'Pdo',
+    //     'dsn'    => sprintf('sqlite:%s/data/zftutorial.db', realpath(getcwd())),
+    // ],
+
+    'db' => array(
+        'driver' => 'pdo',
+        'dsn' => 'mysql:dbname=skeleton_app;host=localhost',
+        'username' => 'rafiq',
+        'password' => '123456',
+    )
+    
 ];
