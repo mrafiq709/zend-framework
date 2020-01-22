@@ -19,7 +19,7 @@ MySQL Install in Docker
 **For checking the root password**
 
     docker logs mysql1 2>&1 | grep GENERATED
-**Use the docker exec -it command to start a mysql client inside the Docker container**
+**Use the *docker exec -it* command to start a mysql client inside the Docker container**
 
     docker exec -it mysql1 mysql -uroot -p
 **For mysql 5.6 version**
