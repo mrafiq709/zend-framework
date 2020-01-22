@@ -6,6 +6,10 @@ Docker Command:
 
 **See all container:** ```docker ps -a```
 
+**List of all container ID:** ```docker ps -a -q```
+
+**Delete all container:** ```docker container rm $(docker ps -a -q)```
+
 MySQL Install in Docker
 -----------------------
     https://hub.docker.com/r/mysql/mysql-server/
