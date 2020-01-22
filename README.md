@@ -6,10 +6,8 @@ MySQL Install in Docker
     
  **If 5.6 doesn't written then it will pull latest version.**
  
-    ```
     docker pull mysql/mysql-server:5.6
     docker run --name=mysql1 -d mysql/mysql-server:5.6
-    ```
 **To see the current running images in Docker**
 
     docker ps
