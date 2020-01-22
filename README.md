@@ -4,7 +4,7 @@ MySQL Install in Docker
 -----------------------
     https://hub.docker.com/r/mysql/mysql-server/
     
- **If 5.6 doesn't written the it will pull latest version.**
+ **If 5.6 doesn't written then it will pull latest version.**
  
     ```
     docker pull mysql/mysql-server:5.6
