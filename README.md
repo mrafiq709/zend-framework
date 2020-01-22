@@ -1,5 +1,12 @@
 # ZendSkeletonApplication
 
+Docker Command:
+---------------
+**See Running Container**
+```docker ps```
+**See all container**
+```docker ps -a```
+
 MySQL Install in Docker
 -----------------------
     https://hub.docker.com/r/mysql/mysql-server/
