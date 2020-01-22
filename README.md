@@ -2,13 +2,9 @@
 
 Docker Command:
 ---------------
-**See Running Container**
+**See Running Container: **```docker ps```
 
-```docker ps```
-
-**See all container**
-
-```docker ps -a```
+**See all container: **```docker ps -a```
 
 MySQL Install in Docker
 -----------------------
